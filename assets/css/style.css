@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url(./assets/images/wallpaper.png);
+    background-image: url(/assets/images/wallpaper.png);
 }
 
 .content {
@@ -163,7 +163,7 @@ footer {
 @media screen and (max-width: 768px) {
     
     body {
-        background-image: url(./assets/images/wallpaper.png);
+        background-image: url(/assets/images/wallpaper.png);
     }
 
     .content {
@@ -229,7 +229,7 @@ footer {
 @media screen and (max-width: 375px) {
     
     body {
-        background-image: url(./assets/images/wallpaper.png);
+        background-image: url(/assets/images/wallpaper.png);
     }
     .content {
         width: 100%;
