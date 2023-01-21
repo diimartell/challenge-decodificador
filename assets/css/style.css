@@ -161,10 +161,6 @@ footer {
 /*  Responsividade */
 
 @media screen and (max-width: 768px) {
-    
-    body {
-        background-image: url(/assets/images/wallpaper.png);
-    }
 
     .content {
         width: 100%;
@@ -227,10 +223,7 @@ footer {
 }
 
 @media screen and (max-width: 375px) {
-    
-    body {
-        background-image: url(/assets/images/wallpaper.png);
-    }
+
     .content {
         width: 100%;
         height: 100%;
