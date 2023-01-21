@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Space Coder</title>
+</head>
+<body>
+    <section class="content">
+        <nav>
+            <img src="/assets/images/logo.png" alt="logo" class="logo"/>
+        </nav>
+        <div class="text-content">
+            <textarea rows="6" class="textArea" id="texto" placeholder="Digite seu texto"></textarea>
+            <div>
+                <div class="warning-box">
+                    <img src="/assets/images/alert.png" alt="aviso">
+                    <p class="warning-text">Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <br>
+                <div class="button-box">
+                    <button onclick="criptografar()">Criptografar</button>
+                    <button onclick="descriptografar()" class="button-secondary">Descriptografar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="show-content" id="show-content">
+            <img src="/assets/images/person.png" alt="person">
+            
+            <div class="text-box-content">
+                <p class="title">Nenhuma mensagem encontrada</p>
+                <p class="subtitle">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Feito por Ingrid Silva.</p><br>
+        <div class="redes">
+            <a href="https://github.com/diimartell" target="_blank">
+                <img src="/assets/images/github.png" alt="ícone do Github">
+            </a>
+            <a href="https://www.linkedin.com/in/ingridecsilva" target="_blank">
+                <img src="/assets/images/linkedin.png" alt="ícone do LinkedIn">
+            </a>
+        </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

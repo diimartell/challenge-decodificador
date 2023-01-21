@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-image: url(/assets/images/wallpaper.png);
+}
+
+.content {
+    height: 98vh;
+    display: flex;
+    gap: 80px;
+    padding: 40px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+.text-content {
+    width: 680px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.textArea {
+    width: 680px;
+    height: 380px;
+    outline: none;
+    border: none;
+    resize: none;
+    font-size: 32px;
+    color: white;
+    background: none;
+    border-radius: 15px;
+}
+
+.textArea::placeholder {
+    text-align: left;
+    color: white;
+}
+
+.warning-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.warning-text {
+    padding-left: 8px;
+    color: white;
+}
+
+.button-box {
+    width: 100%;
+    display: flex;
+    gap: 48px;
+}
+
+button {
+    width: 100%;
+    height: 67px;
+    background-color: #300f26;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 24px;
+    border-radius: 15px;
+    border: 1px solid white;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.button-secondary {
+    color: white;
+    font-size: 20px;
+    background-color: #532b49;
+    border: 1px solid white;
+}
+
+/* scroll bar */
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+
+
+::-webkit-scrollbar-thumb {
+    background: #300f26;
+    border-radius: 10px;
+  }
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.show-content {
+    padding: 32px 32px 0 32px;
+    width: 400px;
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+
+.show-content img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-box-content > .title {
+    color: #511436;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.text-box-content > .subtitle {
+    color: #511436;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* cripto style */
+
+#text-cripto {
+    height: 70%;
+    padding-right: 5px;
+    font-size: 18px;
+    color: #300f26;
+    overflow: auto;
+    transition: 2s ease-in;
+}
+
+#copy {
+    margin-top: 15px;
+}
+
+footer {
+    width: 100%;
+    background-color: #532b49;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+}
+
+    
+
+/*  Responsividade */
+
+@media screen and (max-width: 768px) {
+    body {
+        background-image: url(/assets/images/wallpaper.png);
+    }
+
+    .content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 73px 40px 0;
+    }
+
+    .logo{
+        margin-left: 0px;
+    }
+
+    .text-content {
+        width: 100%;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 24px;
+    }
+
+    .textArea {
+        width: 100%;
+        height: auto;
+        margin-bottom: 40%;
+        outline: none;
+        border: none;
+        resize: none;
+        font-size: 32px;
+        color: white;
+        background: none;
+        border-radius: 15px;
+    }
+
+
+    .show-content {
+        width: 100%;
+        padding: 32px;
+        margin-bottom: 40px;
+        background-color: #FFFFFF;
+        border-radius: 32px;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .show-content img {
+        display: none;
+    }
+
+    #text-cripto {
+        height: 70%;
+        padding-right: 5px;
+        font-size: 24px;
+        color: #0A3871;
+        overflow: auto;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        background-image: url(/assets/images/wallpaper.png);
+    }
+    .content {
+        width: 100%;
+        height: 100%;
+        display: block;
+        padding: 24px 16px 0;
+    }
+
+    .text-content {
+        width: 100%;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textArea {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30%;
+        outline: none;
+        border: none;
+        resize: none;
+        font-size: 32px;
+        color: white;
+        background: none;
+        border-radius: 15px;
+    }
+
+    .warning-box {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+        font-size: 13px;
+    }
+    
+    .warning-text {
+        padding-left: 8px;
+        color: white;
+    }
+
+    .button-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+
+    .show-content {
+        margin-top: 15px;
+    }
+
+
+    .text-box-content > .title {
+        color: #511436;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .text-box-content > .subtitle {
+        color: #511436;
+        font-size: 13px;
+        text-align: center;
+    }
+}
