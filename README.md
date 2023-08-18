@@ -1,4 +1,4 @@
-# Challenge Oracle ONE
+# Challenge ONE - Decodificador <img height="30" width="30" src="https://cdn-icons-png.flaticon.com/512/890/890132.png" />
 
 ## 📋 Sobre
 Feito com HTML, CSS e Javascript esta aplicação tem por função codificar e decodificar mensagens de texto de maneira simples. Visando a troca de informações com outras pessoas de uma forma segura e divertida.
