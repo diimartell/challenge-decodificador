@@ -19,3 +19,7 @@ Nesse caso, a aplicação percorrerá na mensagem encriptada em busca das vogais
 #### Especificações
 - Não devem ser utilizados letras com acentos nem caracteres especiais
 - Deve funcionar apenas com letras minúsculas
+
+## Tecnologias Utilizadas
+
+<img height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /> <img height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /> <img height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> 
